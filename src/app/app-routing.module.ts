@@ -13,7 +13,6 @@ const routes: Routes = [
     { path: "items2", component: LayoutComponent2 },
 ];
 
-
 @NgModule({
     imports: [NativeScriptRouterModule.forRoot(routes)],
     exports: [NativeScriptRouterModule]
